@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+</head>
+<body>
+    <p>student registration form</p>
+    <form>
+        <p>enter your first name:<input type="text" placeholder="enter first name" name="fname"/></p>
+        <p>enter your last name:<input type="text" placeholder="enter last name" name="Lname"/></p>
+        <p>enter your age:<input type="number" placeholder="enter age" name="AGE"/></p>
+        <p>enter password:<input type="password" placeholder="enter password" pattern="#" /></p>
+       
+        <hr/>
+        <P>ENTER YOUR GENDER</P>
+        <!--
+        string gender=male
+        if we select male gender=male
+        ife we select female gender=female
+        -->
+        <SPAN>MALE <input type="radio" name="gender" value="male"></SPAN>
+        <SPAN>FEMALE <input type="radio" name="gender" value="female"></SPAN>
+        <hr/>
+        <p>select favourite subject</p>
+        <!--
+        string subjects[C++,PYTHON,DBMS]
+        -->
+        <p>C++ <input type="checkbox" name="subjects" value="C++"></p>
+        <p>DSA <input type="checkbox" name="subjects" value="DSA"></p>
+        <p>PYTHON <input type="checkbox" name="subjects" value="PYTHON"></p>
+        <p>DBMS <input type="checkbox" name="subjects" value="DBMS"></p>
+        <hr/>
+        <P>UPLOAD YOUR IMAGE:<input type="file" name="passport"> </P>
+        <hr/>
+        <p>write down the feedback: <br> <textarea rows="7" cols="10"></textarea></p>
+        <hr/>
+        <input type="submit" value="enter"/><br>
+        <input type="reset" value="Reset"/><br>
+        <input type="forget password" value="forget password"/>
+    </form>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            font-family: 'Courier New', Courier, monospace;
+            text-align: justify;
+        }
+        p::first-line{
+            background-color: yellow;
+            font-style: italic;
+        }
+        p::first-letter{
+            font-size: 50px;
+            background-color: red;
+            border: radius 15px; ;
+        }
+        p::after{
+            content:"#";
+            color: brown;
+        }
+        p::before{
+            content:"#";
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum doloribus, eveniet non voluptas asperiores in quas, omnis qui sapiente sunt molestiae nihil quam cum maiores pariatur ad nemo voluptatem molestias.</p> 
+</body>
+</html>

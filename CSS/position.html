@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position Demo</title>
+
+</head>
+<body>
+    <style>
+        #main{
+            width: 100%;
+            height: auto;
+            background-color: yellow;
+            padding: 15px;
+        }
+        #box1,#box2,#box3 ,#box4 ,#box5{
+            height: 200px;
+            width: 200px;
+            text-align: center;
+            margin: 15px;
+           
+        }
+        #box1{
+            background-color: red;
+            position: static;
+        }
+        #box2{
+            background-color: blue;
+            position: relative;
+            left: 100px;
+            top: 100px;
+    
+        }
+        #box3{
+            background-color: #008000;
+            position: absolute;
+            top: 20px;
+            left: 400px;
+            
+        }
+        #box4{
+            background-color: rgb(137, 34, 234);
+            position: fixed;
+            top: 20px;
+            left: 200px;
+            
+        }
+        #box5{
+            background-color: black;
+            position: sticky;
+            left: 150px;
+            bottom: 500px;
+        }
+    </style>
+    <div id="main">
+        <div id="box1"> box 1(static)</div>
+        <div id="box2"> box 2(relative)</div>
+        <div id="box3"> box 3(absolute)</div>
+        <div id="box1"> box 1(static)</div>
+        <div id="box2"> box 2(Relative)</div>
+        <div id="box4"> box 4(fixed)</div>
+        <div id="box 5">box 5(sticky)</div>
+    </div>
+</body>
+</html>

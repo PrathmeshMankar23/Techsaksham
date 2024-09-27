@@ -1,0 +1,29 @@
+
+/*Universal selector*/
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+/*Element selector*/
+p{
+    color: hotpink;
+}
+h1{
+    text-align: center;
+}
+span{
+    border: green 3px solid;
+}
+/*ID selector selectors*/
+#border{
+
+    border: 2px solid red;
+    border-radius: 12px;
+    width: 200px;
+    text-align: center;
+}
+/*Class selector selector*/
+.design{
+     font-size: xx-large;
+     background-color: aquamarine;
+     color: blue;
+}
